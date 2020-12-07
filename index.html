@@ -64,8 +64,12 @@
             </div>
         </div>
         <textarea id="transcript" placeholder="Press Start and speak into your mic" rows="5"
+            readonly="readonly"></textarea><br>
+        <textarea id="audiochunk" placeholder="binary" rows="50" cols="350"
             readonly="readonly"></textarea>
-        <textarea id="audiochunk" placeholder="hopefully the audio chunk will go here" rows="5"
+        <textarea id="downsampledBuffer" placeholder="downsampledBuffer" rows="50" cols="350"
+            readonly="readonly"></textarea>
+         <textarea id="pcmEncodedBuffer" placeholder="pcmEncodedBuffer" rows="50" cols="350"
             readonly="readonly"></textarea>
         <div class="row">
             <div class="col">
